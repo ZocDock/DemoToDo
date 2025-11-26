@@ -22,19 +22,21 @@
     border-radius: 10px;
 }
 
-.todo-app h2{
+h2 {
     color: black;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
 
-/* Icon here */
+/* Icon possible here */
 
 .input-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: darkslategray;
+    background: lightgray;
     border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
