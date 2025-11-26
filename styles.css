@@ -12,3 +12,22 @@
     background: cadetblue;
     padding: 10px;
 }
+
+.todo-app{
+    width: 100%;
+    max-width: 550px;
+    background: white;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.todo-app h2{
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Icon here */
+
