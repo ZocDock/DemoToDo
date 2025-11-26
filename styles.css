@@ -31,3 +31,10 @@
 
 /* Icon here */
 
+.input-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: darkslategray;
+    border-radius: 30px;
+}
