@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     /* CSS Reset */
     margin: 0;
     padding: 0;
-    /* font family here */
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
@@ -58,4 +60,26 @@ button{
     font-size: 16px;
     cursor: pointer;
     border-radius: 40px;
+}
+
+ul li{
+    list-style: none;
+    font-size: 18px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url("circle-regular-full.svg");
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
 }
